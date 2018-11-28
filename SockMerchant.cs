@@ -1,8 +1,12 @@
 // John works at a clothing store. He has a large pile of socks that he must pair them by color for sale.
 
-// You will be given an array of integers representing the color of each sock. Determine how many pairs of socks with matching colors there are.
+// You will be given an array of integers representing the color of each sock. Determine how many pairs of socks 
+// with matching colors there are.
 
-// John works at a clothing store and he's going through a pile of socks to find the number of matching pairs. More specifically, he has a pile of  loose socks where each sock  is labeled with an integer, , denoting its color. He wants to sell as many socks as possible, but his customers will only buy them in matching pairs. Two socks,  and , are a single matching pair if they have the same color ().
+// John works at a clothing store and he's going through a pile of socks to find the number of matching pairs. 
+// More specifically, he has a pile of  loose socks where each sock  is labeled with an integer, , denoting its color. 
+// He wants to sell as many socks as possible, but his customers will only buy them in matching pairs. 
+// Two socks,  and , are a single matching pair if they have the same color ().
 
 // Given  and the color of each sock, how many pairs of socks can John sell?
 
@@ -35,6 +39,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+
 class Solution {
 
     static int sockMerchant(int n, int[] ar) {
